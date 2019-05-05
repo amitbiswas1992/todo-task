@@ -14,6 +14,7 @@
 		533B590D227E9BC200F90E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533B590B227E9BC200F90E4B /* LaunchScreen.storyboard */; };
 		533B5918227E9BC200F90E4B /* todotaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B5917227E9BC200F90E4B /* todotaskTests.swift */; };
 		533B5923227E9BC200F90E4B /* todotaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B5922227E9BC200F90E4B /* todotaskUITests.swift */; };
+		533B5931227EC02C00F90E4B /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B5930227EC02C00F90E4B /* ChecklistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		533B591E227E9BC200F90E4B /* todotaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todotaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		533B5922227E9BC200F90E4B /* todotaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todotaskUITests.swift; sourceTree = "<group>"; };
 		533B5924227E9BC300F90E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533B5930227EC02C00F90E4B /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				533B5909227E9BC200F90E4B /* Assets.xcassets */,
 				533B590B227E9BC200F90E4B /* LaunchScreen.storyboard */,
 				533B590E227E9BC200F90E4B /* Info.plist */,
+				533B5930227EC02C00F90E4B /* ChecklistViewController.swift */,
 			);
 			path = todotask;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				533B5905227E9BBE00F90E4B /* ViewController.swift in Sources */,
+				533B5931227EC02C00F90E4B /* ChecklistViewController.swift in Sources */,
 				533B5903227E9BBE00F90E4B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
