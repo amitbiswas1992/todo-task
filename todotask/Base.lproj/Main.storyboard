@@ -24,6 +24,20 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="U7m-2K-5Vy" id="Giz-aX-Y6u">
                                     <rect key="frame" x="0.0" y="0.0" width="335" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="1000" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pxe-2b-TZE">
+                                            <rect key="frame" x="24" y="22" width="311" height="0.0"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                                            <color key="textColor" red="0.1483045704" green="0.48242303879999998" blue="0.89811366579999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Pxe-2b-TZE" firstAttribute="leading" secondItem="Giz-aX-Y6u" secondAttribute="leadingMargin" constant="8" id="Otk-0B-Lxx"/>
+                                        <constraint firstItem="Pxe-2b-TZE" firstAttribute="top" secondItem="Giz-aX-Y6u" secondAttribute="topMargin" constant="11" id="Qye-pb-N8g"/>
+                                        <constraint firstItem="Pxe-2b-TZE" firstAttribute="trailing" secondItem="Giz-aX-Y6u" secondAttribute="trailingMargin" constant="8" id="aCu-iQ-Nl7"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Pxe-2b-TZE" secondAttribute="bottom" constant="11" id="lpt-7c-eIO"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -35,7 +49,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="401-pL-4tw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-418" y="17"/>
+            <point key="canvasLocation" x="-418.39999999999998" y="16.641679160419791"/>
         </scene>
     </scenes>
 </document>

@@ -22,6 +22,15 @@ class ChecklistViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ChecklistItem", for: indexPath)
+        if let item = cell.viewWithTag(1000) as? UILabel{
+            if indexPath.row == 0 {
+            item.text = "Run a marathon"
+            }else{
+                item.text = "Sleep"
+            }
+        }
+        
+        
         return cell
     }
 
