@@ -15,6 +15,7 @@
 		533B5918227E9BC200F90E4B /* todotaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B5917227E9BC200F90E4B /* todotaskTests.swift */; };
 		533B5923227E9BC200F90E4B /* todotaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B5922227E9BC200F90E4B /* todotaskUITests.swift */; };
 		533B5931227EC02C00F90E4B /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B5930227EC02C00F90E4B /* ChecklistViewController.swift */; };
+		533B5933227FE9E100F90E4B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B5932227FE9E100F90E4B /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		533B5922227E9BC200F90E4B /* todotaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todotaskUITests.swift; sourceTree = "<group>"; };
 		533B5924227E9BC300F90E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		533B5930227EC02C00F90E4B /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
+		533B5932227FE9E100F90E4B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				533B590B227E9BC200F90E4B /* LaunchScreen.storyboard */,
 				533B590E227E9BC200F90E4B /* Info.plist */,
 				533B5930227EC02C00F90E4B /* ChecklistViewController.swift */,
+				533B5932227FE9E100F90E4B /* GradientView.swift */,
 			);
 			path = todotask;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				533B5905227E9BBE00F90E4B /* ViewController.swift in Sources */,
 				533B5931227EC02C00F90E4B /* ChecklistViewController.swift in Sources */,
+				533B5933227FE9E100F90E4B /* GradientView.swift in Sources */,
 				533B5903227E9BBE00F90E4B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
